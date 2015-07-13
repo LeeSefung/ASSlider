@@ -14,10 +14,13 @@
 
 @interface ViewController () <ASValueTrackingSliderDataSource>
 
-@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider1;
-@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider2;
-@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider3;
-@property (weak, nonatomic) IBOutlet UISwitch *animateSwitch;
+>@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider1;
+
+>@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider2;
+
+>@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider3;
+
+>@property (weak, nonatomic) IBOutlet UISwitch *animateSwitch;
 
 @end
 
