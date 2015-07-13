@@ -10,10 +10,13 @@
 		24EA78D71B53ADCF000A716A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA78D61B53ADCF000A716A /* main.m */; };
 		24EA78DA1B53ADCF000A716A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA78D91B53ADCF000A716A /* AppDelegate.m */; };
 		24EA78DD1B53ADCF000A716A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA78DC1B53ADCF000A716A /* ViewController.m */; };
-		24EA78E01B53ADCF000A716A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EA78DE1B53ADCF000A716A /* Main.storyboard */; };
 		24EA78E21B53ADCF000A716A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EA78E11B53ADCF000A716A /* Images.xcassets */; };
 		24EA78E51B53ADCF000A716A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24EA78E31B53ADCF000A716A /* LaunchScreen.xib */; };
 		24EA78F11B53ADCF000A716A /* ASSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA78F01B53ADCF000A716A /* ASSliderTests.m */; };
+		24EA78FE1B53ADE1000A716A /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA78FB1B53ADE1000A716A /* ASValueTrackingSlider.m */; };
+		24EA78FF1B53ADE1000A716A /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA78FD1B53ADE1000A716A /* ASValuePopUpView.m */; };
+		24EA79011B53AE3B000A716A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EA79001B53AE3B000A716A /* Main.storyboard */; };
+		24EA79031B53BBCC000A716A /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 24EA79021B53BBCC000A716A /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +37,17 @@
 		24EA78D91B53ADCF000A716A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24EA78DB1B53ADCF000A716A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24EA78DC1B53ADCF000A716A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24EA78DF1B53ADCF000A716A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24EA78E11B53ADCF000A716A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24EA78E41B53ADCF000A716A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		24EA78EA1B53ADCF000A716A /* ASSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EA78EF1B53ADCF000A716A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24EA78F01B53ADCF000A716A /* ASSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASSliderTests.m; sourceTree = "<group>"; };
+		24EA78FA1B53ADE1000A716A /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		24EA78FB1B53ADE1000A716A /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		24EA78FC1B53ADE1000A716A /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		24EA78FD1B53ADE1000A716A /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		24EA79001B53AE3B000A716A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		24EA79021B53BBCC000A716A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +93,13 @@
 				24EA78D91B53ADCF000A716A /* AppDelegate.m */,
 				24EA78DB1B53ADCF000A716A /* ViewController.h */,
 				24EA78DC1B53ADCF000A716A /* ViewController.m */,
-				24EA78DE1B53ADCF000A716A /* Main.storyboard */,
+				24EA78FA1B53ADE1000A716A /* ASValueTrackingSlider.h */,
+				24EA78FB1B53ADE1000A716A /* ASValueTrackingSlider.m */,
+				24EA78FC1B53ADE1000A716A /* ASValuePopUpView.h */,
+				24EA78FD1B53ADE1000A716A /* ASValuePopUpView.m */,
 				24EA78E11B53ADCF000A716A /* Images.xcassets */,
+				24EA79021B53BBCC000A716A /* image.png */,
+				24EA79001B53AE3B000A716A /* Main.storyboard */,
 				24EA78E31B53ADCF000A716A /* LaunchScreen.xib */,
 				24EA78D41B53ADCF000A716A /* Supporting Files */,
 			);
@@ -199,8 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EA78E01B53ADCF000A716A /* Main.storyboard in Resources */,
+				24EA79011B53AE3B000A716A /* Main.storyboard in Resources */,
 				24EA78E51B53ADCF000A716A /* LaunchScreen.xib in Resources */,
+				24EA79031B53BBCC000A716A /* image.png in Resources */,
 				24EA78E21B53ADCF000A716A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EA78DD1B53ADCF000A716A /* ViewController.m in Sources */,
+				24EA78FF1B53ADE1000A716A /* ASValuePopUpView.m in Sources */,
+				24EA78FE1B53ADE1000A716A /* ASValueTrackingSlider.m in Sources */,
 				24EA78DA1B53ADCF000A716A /* AppDelegate.m in Sources */,
 				24EA78D71B53ADCF000A716A /* main.m in Sources */,
 			);
@@ -244,14 +260,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		24EA78DE1B53ADCF000A716A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24EA78DF1B53ADCF000A716A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24EA78E31B53ADCF000A716A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

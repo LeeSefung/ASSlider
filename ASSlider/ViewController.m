@@ -86,7 +86,7 @@
 
 #pragma mark - ASValueTrackingSliderDataSource
 //温度进度条的代理方法，用于修改进度条的显示值
-- (NSString *)slider:(ASValueTrackingSlider *)slider stringForValue:(float)value;
+- (NSString *)slider:(ASValueTrackingSlider *)slider stringForValue:(float)value
 {
     //获取进度条的数值
     value = roundf(value);
